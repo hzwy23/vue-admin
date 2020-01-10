@@ -42,8 +42,7 @@
 </template>
 
 <script>
-import { addModel } from "@/api/modeller.js";
-import { updateModel } from "@/api/modeller.js";
+import { addModel, updateModel } from "@/api/demo.js";
 
 export default {
   data() {

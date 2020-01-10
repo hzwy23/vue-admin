@@ -54,8 +54,7 @@
 </template>
 
 <script>
-import { addModelColumn } from "@/api/modeller.js";
-import { updateModelColumn } from "@/api/modeller.js";
+import { addModelColumn, updateModelColumn } from "@/api/demo.js";
 export default {
   data() {
     return {

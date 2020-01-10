@@ -51,7 +51,7 @@
 
 <script>
 import BasicPagination from "@/components/pagination/BasicPagination";
-import { getModellerColumn, deleteModelColumn } from "@/api/modeller.js";
+import { getModellerColumn, deleteModelColumn } from "@/api/demo.js";
 
 export default {
   components: {

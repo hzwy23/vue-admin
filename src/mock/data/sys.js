@@ -25,58 +25,6 @@ const menu = {
     'GET /menu': {
         statusCode: "200", statusMessage: "succcess", data: [
         {
-          menuId: "1",
-          menuType: 1,
-          menuName: '业务规则',
-          iconClass: 'el-icon-location',
-          children: [
-            {
-              menuId: "1-1",
-              menuType: 2,
-              menuName: '场景管理',
-              path: '/modeller',
-            },
-            {
-              menuId: "1-2",
-              menuType: 2,
-              menuName: '事件管理',
-              path: '/modeller',
-            },
-            {
-              menuId: "1-3",
-              menuType: 2,
-              menuName: '推荐管理',
-              path: '/modeller',
-            },
-            {
-              menuId: "1-4",
-              menuType: 2,
-              menuName: '触发记录',
-              path: '/modeller',
-            },
-            {
-              menuId: "1-5",
-              menuType: 1,
-              menuName: '业务规则',
-              iconClass: 'el-icon-location',
-              children: [
-                {
-                  menuId: "1-5-1",
-                  menuType: 2,
-                  menuName: '数据集管理',
-                  path: '/modeller',
-                },
-                {
-                  menuId: "1-5-2",
-                  menuType: 2,
-                  menuName: '内容管理',
-                  path: '/modeller',
-                }
-              ]
-            }
-          ]
-        },
-        {
           menuId: "2",
           menuType: 1,
           menuName: '系统管理',

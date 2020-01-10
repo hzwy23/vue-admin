@@ -45,7 +45,7 @@
 
 <script>
 import BasicPagination from "@/components/pagination/BasicPagination";
-import { getModeller, deleteModel } from "@/api/modeller.js";
+import { getModeller, deleteModel } from "@/api/demo.js";
 
 export default {
   components: {

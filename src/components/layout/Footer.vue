@@ -1,6 +1,6 @@
 <template>
   <div class="wisrc-footer">
-    <el-footer style="margin-left: -260px; font-size: 12px">Copyright © 2019 智能推送</el-footer>
+    <el-footer style="margin-left: -260px; font-size: 12px">Copyright © 2019 基于 Vue.js + ElementUI 后台管理系统</el-footer>
   </div>
 </template>
 <script>

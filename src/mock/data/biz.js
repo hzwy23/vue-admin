@@ -1,6 +1,6 @@
 const modeller = {
     'GET /modeller': {
-        statusCode: "0", statusMessage: "succcess", data: {
+        statusCode: "200", statusMessage: "succcess", data: {
             total: 4,
             pages: 1,
             content: [{
@@ -34,7 +34,7 @@ const modeller = {
         }
     },
     'GET /modeller/column/xxx': {
-        statusCode: "0", statusMessage: "succcess", data: {
+        statusCode: "200", statusMessage: "succcess", data: {
             total: 4,
             pages: 1,
             content: [{
